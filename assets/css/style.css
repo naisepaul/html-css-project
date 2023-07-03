@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Lobster&family=Open+Sans:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +7,21 @@
 }
 
 body {
-    font-family: 'Lobster';
+    font-family: 'Open sans';
     font-weight: 400;
+    color: #3e3e3e;
+}
+
+/* heading and logo */
+
+h1,
+h2 {
+    font-family: Lobster;
+    letter-spacing: 8px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
