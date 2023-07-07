@@ -9,8 +9,8 @@
 body {
     font-family: 'Open sans';
     font-weight: 400;
-    color: #3e3e3e;
-    background-color: #9a9a9a;
+    color: #ffffff;
+    background-color: #5b5959;
 }
 
 /* heading and logo */
@@ -19,13 +19,14 @@ h1,
 h2 {
     font-family: Lobster;
     letter-spacing: 8px;
-    color: #252525;
+    /* color: #252525; */
 }
 
 #logo {
     float: left;
     font-size: 250%;
     margin-left: 50px;
+    color: #fff
 }
 
 /* navigation links */
@@ -38,7 +39,7 @@ h2 {
 
 .list,
 #logo {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 .list li {
@@ -61,36 +62,71 @@ h2 {
 
 /* hero image */
 
-#hero-outer {
+/* #hero-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
-}
+    
+} */
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') center 100% / cover no-repeat;
+    overflow: hidden;
 }
 
 /* our pizza ethos */
 
 #our-pizza-ethos {
-    height: 800px;
+    height: 700px;
 
 }
 
-#fresh-dough {
-    padding-top: 35px;
+#left-about {
+    padding-top: 25px;
+    padding-left: 30px;
+    height: 700px;
     width: 50%;
     float: left;
 }
 
-#tomato-sauce {
-    padding-top: 35px;
+.ethos-images {
+    padding-top: 25px;
+    height: 325px;
     width: 50%;
-    float: left;
+    border: 2px solid red;
+    border-radius: 20px;
+   
 }
+
+.pizza-dough-image {
+    background: url('../images/pizza-dough.webp') no-repeat;
+    
+}
+
+.pizza-sauce-image {
+    background: url('../images/pizza-sauce.webp') no-repeat;    
+}
+
+#cover-text {
+    font-family: Bagel fat one;
+    height: 250px;
+    width: 250px;
+    padding-top: 8px;
+    left: 350px;
+    position: absolute;
+    /* float: right; */
+    /* background-color: #5b5959; */
+    color: black;
+    text-align: right;
+}
+
+#cover-text-heading {
+    text-decoration: 2px double underline red;
+    padding-bottom: 10px;
+}
+
+
 
 #mozzeralla-cheese {
 
