@@ -40,7 +40,6 @@ h2 {
 .list,
 #logo {
     line-height: 50px;
-
 }
 
 .list li {
@@ -110,6 +109,11 @@ h2 {
 
 .mozzarella-cheese-image {
     background: url('../images/mozzarella-cheese.webp') no-repeat;
+    
+}
+
+.fresh-meat-image {
+    background: url('../images/fresh-meat.jpeg') no-repeat;
 }
 
 #cover-text-left {
@@ -149,32 +153,31 @@ h2 {
     /* background-color: #5b5959; */
     color: black;
     text-align: left;
+
 }
 
 #mozzeralla-meat {
     padding-top: 35px;
+    height: 700px;
     width: 50%;
     float: right;
-    height: 700px;
+
 }
 
 .ethos-images-right {
-    padding-top: 55px;
+    padding-top: 25px;
     height: 325px;
     width: 50%;
     border: 2px solid red;
     border-radius: 20px;
     right: 50px;
     position: absolute;
+    float: right;
 
-    /* padding-right: 250; */
-    /* display: inline-block;
-    /* text-align: right; */
-    /* float: none; */
 }
 
-#fresh-meats {
+/* #fresh-meats {
     padding-top: 35px;
     width: 50%;
     float: right;
-}
+} */
