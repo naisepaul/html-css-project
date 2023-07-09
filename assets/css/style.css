@@ -85,14 +85,14 @@ h2 {
     padding-top: 25px;
     padding-left: 30px;
     height: 700px;
-    width: 50%;
+    width: 40%;
     float: left;
 }
 
-.ethos-images {
+.ethos-images-left {
     padding-top: 25px;
     height: 325px;
-    width: 50%;
+    width: 100%;
     border: 2px solid red;
     border-radius: 20px;
 
@@ -109,7 +109,7 @@ h2 {
 
 .mozzarella-cheese-image {
     background: url('../images/mozzarella-cheese.webp') no-repeat;
-    
+
 }
 
 .fresh-meat-image {
@@ -156,10 +156,10 @@ h2 {
 
 }
 
-#mozzeralla-meat {
-    padding-top: 35px;
+#right-about {
+    padding-top: 25px;
     height: 700px;
-    width: 50%;
+    width: 40%;
     float: right;
 
 }
@@ -167,10 +167,10 @@ h2 {
 .ethos-images-right {
     padding-top: 25px;
     height: 325px;
-    width: 50%;
+    width: 40%;
     border: 2px solid red;
     border-radius: 20px;
-    right: 50px;
+    right: 25px;
     position: absolute;
     float: right;
 
