@@ -34,7 +34,40 @@
         </nav>
     </header>
     <section>
-        <div id="giftcard-section"></div>
+        <div id="giftcard-section">
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <!-- <h2>Gift Card Vochers</h2> -->
+                <fieldset class="signup-form">
+                    <legend>Gift Card Vochers</legend>
+                    <div>
+                        <label for="name-field">Name*</label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                    </div>
+                    <div>
+                        <label for="email-field">Email*</label>
+                        <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div>
+                        <label for="mobile-field">Mobile*</label>
+                        <input id="mobile-field" type="number" name="mobile" placeholder="Your mobile" required>
+                    </div>
+                    <div>
+                        <label for="amount-field">Amount for voucher*</label>
+                        <input id="amount-field" type="number" name="amount" placeholder="Amount for voucher" required>
+                    </div>
+                    <div>
+                        <label for="postal-address-field">Postal Address*</label>
+                        <br>
+                        <textarea id="postal-address-field" name="postal-address" placeholder="Address" rows="5"
+                            cols="70"></textarea>
+                    </div>
+                    <br>
+
+                    <input class="join-button" type="submit" value="Submit">
+                    <input class="join-button" type="reset" value="Clear Form">
+                </fieldset>
+            </form>
+        </div>
     </section>
     <!-- <section class="giftcard-section">
         <form action="https://formdump.codeinstitute.net" method="POST">

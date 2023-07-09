@@ -69,7 +69,7 @@ h1 {
 } */
 
 #hero-image {
-    height: 600px;
+    height: 590px;
     width: 100%;
     background: url('../images/hero-image.webp') center 100% / cover no-repeat;
     overflow: hidden;
@@ -203,8 +203,34 @@ footer {
 /* giftcard form style*/
 
 #giftcard-section {
-    height: 600px;
+    height: 90vh;
     width: 100%;
     overflow: hidden;
     background: url('../images/giftcardform.jpg') center center/ cover no-repeat;
+}
+
+.signup-form {
+    margin: 150px 5% 0 0;
+    color: #fff;
+    background-color: rgba(46, 49, 173, 0.6);
+    max-width: 1000px;
+    position: absolute;
+    right: 0%;
+    padding: 30px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 }
