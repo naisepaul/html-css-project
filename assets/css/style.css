@@ -15,10 +15,10 @@ body {
 
 /* heading and logo */
 
-h1,
-h2 {
+h1 {
     font-family: Lobster;
     letter-spacing: 8px;
+    text-align: center;
     /* color: #252525; */
 }
 
@@ -84,23 +84,50 @@ h2 {
 #left-about {
     padding-top: 25px;
     padding-left: 30px;
-    height: 700px;
-    width: 40%;
+    height: 330px;
+    width: 45%;
     float: left;
 }
 
-.ethos-images-left {
+#right-about {
+    padding-top: 25px;
+    height: 330px;
+    width: 45%;
+    float: right;
+
+}
+
+/* #center-about {
+    padding-top: 25px;
+    height: 350px;
+    width: 40%;
+    float: left;
+} */
+.ethos-images {
     padding-top: 25px;
     height: 325px;
-    width: 100%;
+    width: 45%;
     border: 2px solid red;
     border-radius: 20px;
+    position: absolute;
+}
 
+.ethos-images-left {
+    float: left;
+}
+
+.ethos-images-right {
+    right: 25px;
+    float: right;
+}
+
+.ethos-images-center {
+    right: 425px;
+    position: absolute;
 }
 
 .pizza-dough-image {
     background: url('../images/pizza-dough.webp') no-repeat;
-
 }
 
 .pizza-sauce-image {
@@ -109,7 +136,6 @@ h2 {
 
 .mozzarella-cheese-image {
     background: url('../images/mozzarella-cheese.webp') no-repeat;
-
 }
 
 .fresh-meat-image {
@@ -125,59 +151,24 @@ h2 {
     position: absolute;
     /* float: right; */
     /* background-color: #5b5959; */
-    color: black;
+    color: rgb(3, 3, 3);
     text-align: right;
 }
-
-#cover-text-heading {
-    text-decoration: 2px double underline red;
-    padding-bottom: 10px;
-}
-
-/* #right-about {
-    padding-top: 35px;
-    /* padding-right: 30px; */
-/* height: 700px; */
-/* width: 50%;
-    float: right;    
-}  */
 
 #cover-text-right {
     font-family: Bagel fat one;
     height: 250px;
     width: 250px;
-    padding-top: 20px;
+    padding-top: 8px;
     right: 350px;
     position: absolute;
     /* float: right; */
     /* background-color: #5b5959; */
     color: black;
     text-align: left;
-
 }
 
-#right-about {
-    padding-top: 25px;
-    height: 700px;
-    width: 40%;
-    float: right;
-
+#cover-text-heading {
+    text-decoration: 2px double underline red;
+    padding-bottom: 10px;
 }
-
-.ethos-images-right {
-    padding-top: 25px;
-    height: 325px;
-    width: 40%;
-    border: 2px solid red;
-    border-radius: 20px;
-    right: 25px;
-    position: absolute;
-    float: right;
-
-}
-
-/* #fresh-meats {
-    padding-top: 35px;
-    width: 50%;
-    float: right;
-} */
