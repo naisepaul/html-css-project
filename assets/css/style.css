@@ -78,7 +78,7 @@ h1 {
 /* our pizza ethos */
 
 #our-pizza-ethos {
-    height: 700px;
+    height: 800px;
 }
 
 #left-about {
@@ -123,7 +123,7 @@ h1 {
 
 .ethos-images-center {
     right: 425px;
-    position: absolute;
+
 }
 
 .pizza-dough-image {
@@ -171,4 +171,18 @@ h1 {
 #cover-text-heading {
     text-decoration: 2px double underline red;
     padding-bottom: 10px;
+}
+
+#contact-us {
+    /* height: 150px; */
+    padding-left: 25px;
+    background-color: blue;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-media-links {
+    text-align: center;
 }
