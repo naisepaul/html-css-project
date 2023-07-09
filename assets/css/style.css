@@ -182,7 +182,7 @@ h1 {
 /* footer social media link icons */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-media-links {
@@ -194,8 +194,17 @@ footer {
 }
 
 .social-media-links i {
-    font-size: 200%;
+    font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #fff;
+}
+
+/* giftcard form style*/
+
+#giftcard-section {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background: url('../images/giftcardform.jpg') center center/ cover no-repeat;
 }
