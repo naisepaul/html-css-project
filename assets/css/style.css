@@ -179,10 +179,23 @@ h1 {
     background-color: blue;
 }
 
+/* footer social media link icons */
+
 footer {
     height: 150px;
 }
 
 .social-media-links {
     text-align: center;
+}
+
+.social-media-links>li {
+    display: inline;
+}
+
+.social-media-links i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #fff;
 }
