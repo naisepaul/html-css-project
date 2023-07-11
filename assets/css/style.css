@@ -10,7 +10,21 @@ body {
     font-family: 'Open sans';
     font-weight: 400;
     color: #ffffff;
-    background-color: #5b5959;
+    background-color: #010101;
+    overflow-x: hidden;
+}
+
+/* header position fixed */
+
+.fixed-header {
+    height: 50px;
+    width: 100%;
+    background: black;
+    opacity: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 
 /* heading and logo */
@@ -26,7 +40,8 @@ h1 {
     float: left;
     font-size: 250%;
     margin-left: 50px;
-    color: #fff
+    color: #fff;
+    cursor: pointer;
 }
 
 /* navigation links */
@@ -73,6 +88,7 @@ h1 {
     width: 100%;
     background: url('../images/hero-image.webp') center 100% / cover no-repeat;
     overflow: hidden;
+    padding-top: 50px;
 }
 
 /* our pizza ethos */
@@ -174,17 +190,28 @@ h1 {
 }
 
 #contact-us {
-    /* height: 150px; */
+    font-size: 1.5;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
     padding-left: 25px;
-    background-color: blue;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    /* background-color: blue; */
+}
+
+div~h2 {
+    font-size: 160%;
+    line-height: 10px;
 }
 
 /* footer social media link icons */
-
+/* 
 footer {
-    height: 100px;
-}
+    height: 150px;
+    background-color: black;
 
+} */
 .social-media-links {
     text-align: center;
 }
@@ -212,8 +239,8 @@ footer {
 .signup-form {
     margin: 150px 5% 0 0;
     color: #fff;
-    background-color: rgba(46, 49, 173, 0.6);
-    max-width: 1000px;
+    background-color: seagreen;
+    max-width: 700px;
     position: absolute;
     right: 0%;
     padding: 30px;
@@ -233,4 +260,12 @@ footer {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+legend {
+    font-size: 200%;
+}
+
+form {
+    line-height: 1.7;
 }

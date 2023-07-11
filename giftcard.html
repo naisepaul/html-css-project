@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="fixed-header">
         <a href="index.html">
             <h1 id="logo">Pizza House</h1>
         </a>
@@ -36,7 +36,6 @@
     <section>
         <div id="giftcard-section">
             <form action="https://formdump.codeinstitute.net" method="POST">
-                <!-- <h2>Gift Card Vochers</h2> -->
                 <fieldset class="signup-form">
                     <legend>Gift Card Vochers</legend>
                     <div>
@@ -49,7 +48,8 @@
                     </div>
                     <div>
                         <label for="mobile-field">Mobile*</label>
-                        <input id="mobile-field" type="number" name="mobile" placeholder="Your mobile" required>
+                        <input id="mobile-field" type="text" name="mobile" placeholder="Your mobile" pattern="[0-9]{10}"
+                            required>
                     </div>
                     <div>
                         <label for="amount-field">Amount for voucher*</label>
@@ -69,13 +69,40 @@
             </form>
         </div>
     </section>
-    <!-- <section class="giftcard-section">
-        <form action="https://formdump.codeinstitute.net" method="POST">
-            <h2>Gift Card Vochers</h2>
+    <section>
+        <div id="contact-us">
+            <h2>Contact Us</h2>
+            <h3>Opening Hours </h3>
+            <!-- Adding opening hours table here -->
+            <table>
+                <tr>
+                    <th> </th>
+                    <th>Kitchen</th>
+                    <th>Delivery</th>
+                </tr>
+                <tr>
+                    <td>Sunday- Thursday </td>
+                    <td>16:00 - 23:00</td>
+                    <td>16:00 - 23:00</td>
+                </tr>
+                <tr>
+                    <td>Friday - Saturday </td>
+                    <td>16:00 - 00:30</td>
+                    <td>16:00 - 00:30</td>
+                </tr>
+            </table>
+            <h2>Address</h2>
+            <p>12 Railway St,<br>Dillonsland,<br> Navan,<br> Co. Meath <br><span style="font-weight: bold">Phone: (046)
+                    903 1595</span></p>
+        </div>
+        <!-- Add iframe here -->
 
-        </form>
-    </section> -->
-
+        <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=12%20Railway%20St,%20Dillonsland,%20Navan,%20Co.%20Meath+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                    href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
+        </div>
+    </section>
     <footer>
         <ul class="social-media-links">
             <span style="font-weight: bold">Find us on:</span>
