@@ -260,8 +260,16 @@ footer {
 
 legend {
     font-size: 200%;
+    text-transform: uppercase;
 }
 
 form {
     line-height: 1.7;
+}
+
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
 }
