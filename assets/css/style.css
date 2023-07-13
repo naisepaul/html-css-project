@@ -130,6 +130,7 @@ h1 {
 }
 
 .ethos-images-left {
+    left: 25px;
     float: left;
 }
 
@@ -280,7 +281,7 @@ input[type=email] {
 
 /* three bar dropdown menu */
 
-.dropbtn {
+.menu-dropbtn {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
@@ -291,12 +292,12 @@ input[type=email] {
     right: 0px;
 }
 
-.dropdown {
+.menu-dropdown {
     position: relative;
     display: inline-block;
 }
 
-.dropdown-content {
+.menu-dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -305,22 +306,22 @@ input[type=email] {
     z-index: 1;
 }
 
-.dropdown-content a {
+.menu-dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {
+.menu-dropdown-content a:hover {
     background-color: #f1f1f1
 }
 
-.dropdown:hover .dropdown-content {
+.menu-dropdown:hover .menu-dropdown-content {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
+.menu-dropdown:hover .menu-dropbtn {
     background-color: #3e8e41;
 }
 
@@ -332,9 +333,13 @@ input[type=email] {
 
 @media (min-width: 1281px) {
 
-    .dropdown-content,
-    .dropbtn {
+    .menu-dropdown-content,
+    .menu-dropbtn {
         display: none;
+    }
+
+    #hero-image {
+        width: 100%;
     }
 
 }
@@ -350,18 +355,18 @@ input[type=email] {
         display: none;
     }
 
-    .dropdown-content,
-    .dropbtn {
+    .menu-dropdown-content,
+    .menu-dropbtn {
         display: show;
-    }
-
-    button>i {
-        right: 20px;
-        /* display: inline-block; */
+        order: 2;
     }
 
     #cover-text-left {
         left: 0px;
+    }
+
+    .ethos-images-center {
+        right: 300px;
     }
 }
 
@@ -376,15 +381,24 @@ input[type=email] {
         display: none;
     }
 
-    .dropdown-content,
-    .dropbtn {
+    .menu-dropdown-content,
+    .menu-dropbtn {
         display: show;
+    }
+
+    #cover-text-left {
+        left: 0px;
+    }
+
+    .ethos-images-center {
+        right: 250px;
+
     }
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 320px to 767px
 */
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -392,8 +406,43 @@ input[type=email] {
         display: none;
     }
 
-    .dropdown-content,
-    .dropbtn {
+    .menu-dropdown-content,
+    .menu-dropbtn {
         display: show;
+    }
+
+    #cover-text-left {
+        left: 0px;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+    }
+
+    .ethos-images {
+        width: 90%;
+    }
+
+    #left-about {
+        clear: right;
+    }
+
+    #right-about {
+        clear: right;
+        float: left;
+        margin: 2px;
+    }
+
+    .ethos-images-right {
+        clear: right;
+        display: block;
+    }
+
+    .ethos-images-center,
+    .ethos-images-left,
+    .ethos-images-right {
+        left: 5px;
+
     }
 }
