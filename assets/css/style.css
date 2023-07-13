@@ -11,20 +11,21 @@ body {
     font-weight: 400;
     color: #ffffff;
     background-color: #010101;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    overflow-y: scroll;
 }
 
 /* header position fixed */
 
 .fixed-header {
-    height: 50px;
+    /* height: 50px; */
     width: 100%;
     background: black;
     opacity: 1;
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 100;
+    z-index: 1;
 }
 
 /* heading and logo */
@@ -33,12 +34,12 @@ h1 {
     font-family: Lobster;
     letter-spacing: 8px;
     text-align: center;
-    /* color: #252525; */
+    font-size: 250%;
 }
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 350%;
     margin-left: 50px;
     color: #fff;
     cursor: pointer;
@@ -190,6 +191,7 @@ h1 {
 }
 
 #contact-us {
+    /* height: 250px; */
     font-size: 1.5;
     height: auto;
     width: 100%;
@@ -200,10 +202,12 @@ h1 {
     /* background-color: blue; */
 }
 
-div~h2 {
-    font-size: 160%;
+/* #contact-us h2 {
+    font-size: 130%;
+    text-transform: uppercase;
     line-height: 10px;
-}
+} */
+
 
 /* footer social media link icons */
 /* 
@@ -247,7 +251,7 @@ footer {
 }
 
 .join-button {
-    width: 200px;
+    width: 190px;
     margin-top: 20px;
     border-radius: 20px;
     padding: 15px 32px;
@@ -272,4 +276,119 @@ input[type=email] {
     height: 30px;
     width: 90%;
     padding-left: 10px;
+}
+
+/* three bar dropdown menu */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    right: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    .dropdown-content,
+    .dropbtn {
+        display: none;
+    }
+
+}
+
+/* media queries */
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .list a {
+        display: none;
+    }
+
+    .dropdown-content,
+    .dropbtn {
+        display: show;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .list a {
+        display: none;
+    }
+
+    .dropdown-content,
+    .dropbtn {
+        display: show;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .list a {
+        display: none;
+    }
+
+    .dropdown-content,
+    .dropbtn {
+        display: show;
+    }
+
+
 }
