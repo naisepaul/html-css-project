@@ -11,8 +11,8 @@ body {
     font-weight: 400;
     color: #ffffff;
     background-color: #010101;
-    /* overflow-x: hidden; */
-    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* header position fixed */
@@ -164,7 +164,7 @@ h1 {
     height: 250px;
     width: 250px;
     padding-top: 8px;
-    left: 350px;
+    left: 250px;
     position: absolute;
     /* float: right; */
     /* background-color: #5b5959; */
@@ -324,6 +324,7 @@ input[type=email] {
     background-color: #3e8e41;
 }
 
+/* media queries */
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -337,8 +338,6 @@ input[type=email] {
     }
 
 }
-
-/* media queries */
 
 /* 
   ##Device = Laptops, Desktops
@@ -356,6 +355,14 @@ input[type=email] {
         display: show;
     }
 
+    button>i {
+        right: 20px;
+        /* display: inline-block; */
+    }
+
+    #cover-text-left {
+        left: 0px;
+    }
 }
 
 /* 
@@ -389,6 +396,4 @@ input[type=email] {
     .dropbtn {
         display: show;
     }
-
-
 }
