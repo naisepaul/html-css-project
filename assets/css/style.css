@@ -141,7 +141,6 @@ h1 {
 
 .ethos-images-center {
     right: 425px;
-
 }
 
 .pizza-dough-image {
@@ -200,7 +199,6 @@ h1 {
     padding-left: 25px;
     padding-bottom: 5px;
     line-height: 1.5;
-    /* background-color: blue; */
 }
 
 /* #contact-us h2 {
@@ -401,7 +399,7 @@ input[type=email] {
   ##Screen = B/w 320px to 767px
 */
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .list a {
         display: none;
     }
@@ -418,14 +416,17 @@ input[type=email] {
     #left-about,
     #right-about {
         width: 100%;
+        padding-left: 25px;
     }
 
     .ethos-images {
         width: 90%;
+        height: 305px;
     }
 
     #left-about {
         clear: right;
+        margin: 2px;
     }
 
     #right-about {
@@ -443,6 +444,9 @@ input[type=email] {
     .ethos-images-left,
     .ethos-images-right {
         left: 5px;
+    }
 
+    #contact-us {
+        margin: 0px;
     }
 }
