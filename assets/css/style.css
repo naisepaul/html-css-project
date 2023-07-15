@@ -98,7 +98,7 @@ h1 {
     height: 800px;
 }
 
-#left-about {
+.left-about {
     padding-top: 25px;
     padding-left: 30px;
     height: 330px;
@@ -155,7 +155,7 @@ h1 {
     background: url('../images/mozzarella-cheese.webp') no-repeat;
 }
 
-#cover-text-left {
+.cover-text-left {
     font-family: Bagel fat one;
     height: 250px;
     width: 250px;
@@ -181,7 +181,7 @@ h1 {
     text-align: left;
 }
 
-#cover-text-heading {
+.cover-text-heading {
     text-decoration: 2px double underline red;
     padding-bottom: 10px;
 }
@@ -195,6 +195,12 @@ h1 {
     padding-left: 25px;
     padding-bottom: 5px;
     line-height: 1.5;
+}
+
+#map-style {
+    width: 100%;
+    height: 400px;
+
 }
 
 /* #contact-us h2 {
@@ -359,7 +365,7 @@ input[type=email] {
         position: top right;
     }
 
-    #cover-text-left {
+    .cover-text-left {
         left: 0px;
     }
 
@@ -392,7 +398,7 @@ input[type=email] {
         line-height: 25px;
     }
 
-    #cover-text-left {
+    .over-text-left {
         left: 0px;
     }
 
@@ -418,7 +424,7 @@ input[type=email] {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 767px) {
     .list a {
         display: none;
     }
@@ -428,20 +434,12 @@ input[type=email] {
         display: show;
     }
 
-    /* .list {
-        clear: left;
-        float: right;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    } */
-
-    #cover-text-left {
+    .cover-text-left {
         left: 0px;
     }
 
-    #left-about,
-    #right-about {
+    .left-about,
+    .right-about {
         width: 100%;
         padding-left: 25px;
     }
@@ -451,7 +449,7 @@ input[type=email] {
         height: 305px;
     }
 
-    #left-about {
+    .left-about {
         clear: right;
         margin: 2px;
     }
@@ -499,12 +497,12 @@ input[type=email] {
         margin: 1%;
     }
 
-    #cover-text-left {
+    .cover-text-left {
         left: 0px;
         top: 0px;
     }
 
-    #left-about,
+    .left-about,
     #right-about {
         width: 100%;
         padding-left: 25px;
@@ -515,7 +513,7 @@ input[type=email] {
         height: 305px;
     }
 
-    #left-about {
+    .left-about {
         clear: right;
         margin: 2px;
     }
@@ -573,8 +571,13 @@ input[type=email] {
         display: show;
     }
 
+    .menu-dropbtn {
+        font-size: 10px;
+    }
+
     #logo {
-        font-size: 170%;
+        font-size: 130%;
+        margin-left: 35px;
     }
 
     .social-media-links i {
@@ -586,13 +589,13 @@ input[type=email] {
         font-size: 25px;
     }
 
-    #cover-text-left {
+    .cover-text-left {
         left: 0px;
         top: 0px;
         font-size: 95%;
     }
 
-    #left-about,
+    .left-about,
     #right-about {
         width: 100%;
         left: 1px;
@@ -603,7 +606,7 @@ input[type=email] {
         height: 250px;
     }
 
-    #left-about {
+    .left-about {
         clear: right;
         margin: 2px;
     }
