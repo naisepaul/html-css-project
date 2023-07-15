@@ -164,7 +164,7 @@ h1 {
     position: absolute;
     /* float: right; */
     /* background-color: #5b5959; */
-    color: rgb(3, 3, 3);
+    color: rgb(6, 6, 6);
     text-align: right;
 }
 
@@ -177,7 +177,7 @@ h1 {
     position: absolute;
     /* float: right; */
     /* background-color: #5b5959; */
-    color: black;
+    color: rgb(6, 6, 6);
     text-align: left;
 }
 
@@ -516,6 +516,8 @@ input[type=email] {
     }
 }
 
+/* ##Screen=Below 320px */
+
 @media (max-width: 319px) {
 
     .list a {
@@ -525,11 +527,10 @@ input[type=email] {
     .menu-dropdown-content,
     .menu-dropbtn {
         display: show;
-        float: right;
     }
 
     #logo {
-        font-size: 175%;
+        font-size: 170%;
     }
 
     .social-media-links i {
@@ -538,39 +539,35 @@ input[type=email] {
     }
 
     #our-pizza-ethos h1 {
-        font-size: 25px;
+        font-size: 50px;
     }
 
     #cover-text-left {
         left: 0px;
         top: 0px;
-        font-size: 75%;
+        font-size: 95%;
     }
 
     #left-about,
     #right-about {
-        max-width: 100%;
-        height: 210px;
-        /* padding-left: 25px; */
-        padding-top: 10px;
-        left: 5px;
+        width: 100%;
+        left: 1px;
     }
 
     .ethos-images {
         width: 100%;
-        height: 205px;
-        padding-top: 10px;
+        height: 250px;
     }
 
     #left-about {
         clear: right;
-        margin: 2px;
+        /* margin: 2px; */
     }
 
     #right-about {
         clear: right;
         float: left;
-        margin: 2px;
+        /* margin: 2px; */
     }
 
     .ethos-images-right {
@@ -581,16 +578,17 @@ input[type=email] {
     .ethos-images-center,
     .ethos-images-left,
     .ethos-images-right {
-        padding-left: 0px;
+        left: 1px;
     }
 
     #contact-us {
         font-size: small;
         padding-left: 10px;
+        left: 20px;
     }
 
     #giftcard-section {
-        height: 50vh;
+        height: 70vh;
         max-width: 100%;
     }
 
