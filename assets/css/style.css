@@ -230,9 +230,11 @@ footer {
 
 #giftcard-section {
     height: 90vh;
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
     background: url('../images/giftcardform.jpg') center center/ cover no-repeat;
+    /* background-size: contains; */
+    object-fit: fill;
 }
 
 .signup-form {
@@ -290,6 +292,7 @@ input[type=email] {
 .menu-dropdown {
     position: relative;
     display: inline-block;
+    position: fixed;
 }
 
 .menu-dropdown-content {
@@ -370,16 +373,23 @@ input[type=email] {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1025px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
-    .list a {
+    /* .list a {
         display: none;
-    }
+    } */
 
     .menu-dropdown-content,
     .menu-dropbtn {
-        display: show;
+        display: none;
+    }
 
+    .list {
+        clear: left;
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
     #cover-text-left {
@@ -417,6 +427,14 @@ input[type=email] {
     .menu-dropbtn {
         display: show;
     }
+
+    /* .list {
+        clear: left;
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    } */
 
     #cover-text-left {
         left: 0px;
