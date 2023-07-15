@@ -155,10 +155,6 @@ h1 {
     background: url('../images/mozzarella-cheese.webp') no-repeat;
 }
 
-.fresh-meat-image {
-    background: url('../images/fresh-meat.jpeg') no-repeat;
-}
-
 #cover-text-left {
     font-family: Bagel fat one;
     height: 250px;
@@ -312,7 +308,7 @@ input[type=email] {
 }
 
 .menu-dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
 }
 
 .menu-dropdown:hover .menu-dropdown-content {
@@ -395,11 +391,11 @@ input[type=email] {
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles 
-  ##Screen = B/w 320px to 767px
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .list a {
         display: none;
     }
@@ -445,8 +441,161 @@ input[type=email] {
     .ethos-images-right {
         left: 5px;
     }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .list a {
+        display: none;
+    }
+
+    .menu-dropdown-content,
+    .menu-dropbtn {
+        display: show;
+    }
+
+    #logo {
+        font-size: 200%;
+    }
+
+    .social-media-links i {
+        font-size: 90%;
+        margin: 1%;
+    }
+
+    #cover-text-left {
+        left: 0px;
+        top: 0px;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        padding-left: 25px;
+    }
+
+    .ethos-images {
+        width: 90%;
+        height: 305px;
+    }
+
+    #left-about {
+        clear: right;
+        margin: 2px;
+    }
+
+    #right-about {
+        clear: right;
+        float: left;
+        margin: 2px;
+    }
+
+    .ethos-images-right {
+        clear: right;
+        display: block;
+    }
+
+    .ethos-images-center,
+    .ethos-images-left,
+    .ethos-images-right {
+        left: 20px;
+    }
+
+    .ethos-images {
+        max-width: 100%;
+    }
+
+    #giftcard-section {
+        height: 70vh;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 319px) {
+
+    .list a {
+        display: none;
+    }
+
+    .menu-dropdown-content,
+    .menu-dropbtn {
+        display: show;
+        float: right;
+    }
+
+    #logo {
+        font-size: 175%;
+    }
+
+    .social-media-links i {
+        font-size: 90%;
+        margin: 1%;
+    }
+
+    #our-pizza-ethos h1 {
+        font-size: 25px;
+    }
+
+    #cover-text-left {
+        left: 0px;
+        top: 0px;
+        font-size: 75%;
+    }
+
+    #left-about,
+    #right-about {
+        max-width: 100%;
+        height: 210px;
+        /* padding-left: 25px; */
+        padding-top: 10px;
+        left: 5px;
+    }
+
+    .ethos-images {
+        width: 100%;
+        height: 205px;
+        padding-top: 10px;
+    }
+
+    #left-about {
+        clear: right;
+        margin: 2px;
+    }
+
+    #right-about {
+        clear: right;
+        float: left;
+        margin: 2px;
+    }
+
+    .ethos-images-right {
+        clear: right;
+        display: block;
+    }
+
+    .ethos-images-center,
+    .ethos-images-left,
+    .ethos-images-right {
+        padding-left: 0px;
+    }
 
     #contact-us {
-        margin: 0px;
+        font-size: small;
+        padding-left: 10px;
+    }
+
+    #giftcard-section {
+        height: 50vh;
+        max-width: 100%;
+    }
+
+    .signup-form {
+        top: 10px;
+        left: 5px;
     }
 }
