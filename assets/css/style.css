@@ -191,7 +191,7 @@ h2 {
 
 #contact-us {
     /* height: 250px; */
-    font-size: 1.5;
+    font-size: large;
     height: auto;
     width: 100%;
     margin-bottom: 10px;
@@ -372,7 +372,6 @@ input[type=email] {
     .menu-dropdown-content,
     .menu-dropbtn {
         display: none;
-        position: top right;
     }
 
     .cover-text-left {
@@ -439,9 +438,9 @@ input[type=email] {
         display: none;
     }
 
-    .menu-dropdown-content,
+    /* .menu-dropdown-content, */
     .menu-dropbtn {
-        display: show;
+        display: inline;
     }
 
     .cover-text-left {
@@ -493,9 +492,8 @@ input[type=email] {
         display: none;
     }
 
-    .menu-dropdown-content,
     .menu-dropbtn {
-        display: show;
+        display: inline;
     }
 
     #logo {
@@ -578,7 +576,7 @@ input[type=email] {
 
     .menu-dropdown-content,
     .menu-dropbtn {
-        display: show;
+        display: inline;
     }
 
     .menu-dropbtn {
