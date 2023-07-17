@@ -163,20 +163,20 @@ h2 {
     padding-top: 8px;
     left: 250px;
     position: absolute;
-    /* float: right; */
+    float: right;
     /* background-color: #5b5959; */
     color: rgb(6, 6, 6);
     text-align: right;
 }
 
-#cover-text-right {
+.cover-text-right {
     font-family: Bagel fat one;
     height: 250px;
     width: 250px;
     padding-top: 8px;
     right: 350px;
     position: absolute;
-    /* float: right; */
+    float: right;
     /* background-color: #5b5959; */
     color: rgb(6, 6, 6);
     text-align: left;
@@ -196,6 +196,22 @@ h2 {
     padding-left: 25px;
     padding-bottom: 5px;
     line-height: 1.5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column {
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.column span {
+    font-weight: bold;
 }
 
 #map-style {
@@ -411,7 +427,11 @@ input[type=email] {
 
     .ethos-images-center {
         right: 250px;
+    }
 
+    .grid-container {
+        /* display: grid; */
+        grid-template-columns: 1fr;
     }
 
     .signup-form {
@@ -477,7 +497,13 @@ input[type=email] {
     .ethos-images-right {
         left: 5px;
     }
+
+    .grid-container {
+        /* display: grid; */
+        grid-template-columns: 1fr;
+    }
 }
+
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -543,6 +569,11 @@ input[type=email] {
 
     .ethos-images {
         max-width: 100%;
+    }
+
+    .grid-container {
+        /* display: grid; */
+        grid-template-columns: 1fr;
     }
 
     #giftcard-section {
@@ -633,6 +664,11 @@ input[type=email] {
     .ethos-images-left,
     .ethos-images-right {
         left: 1px;
+    }
+
+    .grid-container {
+        /* display: grid; */
+        grid-template-columns: 1fr;
     }
 
     #contact-us {

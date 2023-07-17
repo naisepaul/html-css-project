@@ -8,7 +8,7 @@ This project is for educational purposes and can not be used as a template for a
 
 ## Table of Contents
 
-- [UX](#ux)
+- [UX (User Experience)](<#ux(user-experience)>)
   - [Website owner business goals](#website-owner-business-goals)
   - [User goals](#user-goals)
     - [New user goals](#new-user-goals)
