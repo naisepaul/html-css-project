@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Lobster&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +8,7 @@
 }
 
 body {
-    font-family: 'Open sans';
+    font-family: 'Oswald';
     font-weight: 400;
     color: #ffffff;
     background-color: #010101;
@@ -157,29 +158,31 @@ h2 {
 }
 
 .cover-text-left {
-    font-family: Bagel fat one;
-    height: 250px;
+    font-family: Open sans;
+    height: auto;
     width: 250px;
     padding-top: 8px;
     left: 250px;
     position: absolute;
     float: right;
-    /* background-color: #5b5959; */
-    color: rgb(6, 6, 6);
+    background-color: #070707;
+    color: rgb(226, 225, 233);
     text-align: right;
+    border-radius: 20px;
 }
 
 .cover-text-right {
-    font-family: Bagel fat one;
-    height: 250px;
+    font-family: Oswald;
+    height: auto;
     width: 250px;
     padding-top: 8px;
     right: 350px;
     position: absolute;
     float: right;
-    /* background-color: #5b5959; */
-    color: rgb(6, 6, 6);
+    background-color: #070707;
+    color: rgb(226, 225, 233);
     text-align: left;
+    border-radius: 20px;
 }
 
 .cover-text-heading {
@@ -200,13 +203,13 @@ line-height: 1.5;
 
 */
 .address {
-    height: 150px;
+    height: 170px;
 }
 
 .address-left-about {
     /* padding-top: 25px; */
     padding-left: 30px;
-    height: 150px;
+    height: 170px;
     width: 45%;
     float: left;
 }
@@ -279,10 +282,10 @@ footer {
     color: #fff;
 }
 
-/* giftcard form style*/
+/* comments form Styles*/
 
-#giftcard-section {
-    height: 90vh;
+#comment-section {
+    height: 100vh;
     max-width: 100%;
     overflow: hidden;
     background: url('../images/giftcardform.jpg') center center/ cover no-repeat;
@@ -291,7 +294,7 @@ footer {
 }
 
 .signup-form {
-    margin: 150px 5% 0 0;
+    margin: 125px 5% 0 0;
     color: #fff;
     /* background-color: rgb(125, 135, 130); */
     max-width: 700px;
@@ -452,14 +455,19 @@ input[type=email] {
         right: 250px;
     }
 
+    .address {
+        /* height: 180px; */
+        font-size: small;
+    }
+
     .signup-form {
         margin-top: 90px;
         /* left: 5px; */
         /* max-width: 700px; */
     }
 
-    #giftcard-section {
-        height: 80vh;
+    #comment-section {
+        height: 105vh;
         max-width: 100%;
     }
 }
@@ -608,9 +616,9 @@ input[type=email] {
         float: left;
     }
 
-    #giftcard-section {
+    #comment-section {
         height: 120vh;
-        width: 100%;
+        width: 150%;
     }
 
     .signup-form {
@@ -727,9 +735,9 @@ input[type=email] {
         font-size: 130%;
     } */
 
-    #giftcard-section {
-        height: 100vh;
-        width: 150%;
+    #comment-section {
+        height: 120vh;
+        width: 200%;
     }
 
     .signup-form {
