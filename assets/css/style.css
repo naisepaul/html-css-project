@@ -107,7 +107,7 @@ h2 {
     float: left;
 }
 
-#right-about {
+.right-about {
     padding-top: 25px;
     height: 330px;
     width: 45%;
@@ -187,20 +187,49 @@ h2 {
     padding-bottom: 10px;
 }
 
-#contact-us {
-    /* height: 250px; */
-    font-size: large;
-    height: auto;
-    width: 100%;
-    margin-bottom: 10px;
-    padding-left: 25px;
-    padding-bottom: 5px;
-    line-height: 1.5;
+/* #contact-us {
+    
+font-size: large;
+height: auto;
+width: 100%;
+margin-bottom: 10px;
+padding-left: 25px;
+padding-bottom: 5px;
+line-height: 1.5;
 }
 
-.grid-container {
+*/
+.address {
+    height: 50px;
+}
+
+.address-left-about {
+    /* padding-top: 25px; */
+    padding-left: 30px;
+    height: 50px;
+    width: 45%;
+    float: left;
+}
+
+.address-right-about {
+    /* padding-top: 25px; */
+    height: 50px;
+    width: 45%;
+    float: right;
+
+}
+
+/* .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 450px 450px;
+}
+
+.grid-get-in-touch {
+    width: 50%;
+}
+
+.grid-open {
+    width: 50%;
 }
 
 .column {
@@ -212,7 +241,7 @@ h2 {
 
 .column span {
     font-weight: bold;
-}
+} */
 
 #map-style {
     width: 100%;
@@ -431,7 +460,14 @@ input[type=email] {
 
     .grid-container {
         /* display: grid; */
-        grid-template-columns: 1fr;
+        grid-template-columns: 350px;
+    }
+
+    .column {
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        font-size: large;
     }
 
     .signup-form {
@@ -481,7 +517,7 @@ input[type=email] {
         margin: 2px;
     }
 
-    #right-about {
+    .right-about {
         clear: right;
         float: left;
         margin: 2px;
@@ -500,7 +536,14 @@ input[type=email] {
 
     .grid-container {
         /* display: grid; */
-        grid-template-columns: 1fr;
+        grid-template-columns: 350px;
+    }
+
+    .column {
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        font-size: small;
     }
 }
 
@@ -535,7 +578,7 @@ input[type=email] {
     }
 
     .left-about,
-    #right-about {
+    .right-about {
         width: 100%;
         padding-left: 25px;
     }
@@ -550,7 +593,7 @@ input[type=email] {
         margin: 2px;
     }
 
-    #right-about {
+    .right-about {
         clear: right;
         float: left;
         margin: 2px;
@@ -573,7 +616,14 @@ input[type=email] {
 
     .grid-container {
         /* display: grid; */
-        grid-template-columns: 1fr;
+        grid-template-columns: 350px;
+    }
+
+    .column {
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        font-size: small;
     }
 
     #giftcard-section {
@@ -634,7 +684,7 @@ input[type=email] {
     }
 
     .left-about,
-    #right-about {
+    .right-about {
         width: 100%;
         left: 1px;
     }
@@ -649,7 +699,7 @@ input[type=email] {
         margin: 2px;
     }
 
-    #right-about {
+    .right-about {
         clear: right;
         float: left;
         margin: 2px;
@@ -668,7 +718,14 @@ input[type=email] {
 
     .grid-container {
         /* display: grid; */
-        grid-template-columns: 1fr;
+        grid-template-columns: 350px;
+    }
+
+    .column {
+        width: 100%;
+        /* height: auto;
+        padding-left: 20px; */
+        font-size: small;
     }
 
     #contact-us {
