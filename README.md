@@ -8,24 +8,26 @@ This project is for educational purposes and can not be used as a template for a
 
 ## Table of Contents
 
-- UX
-  - Website owner business goals
-  - User goals
-    - New user goals
-    - Returning user goals
-  - User Stories
-  - Structure of the website
-  - Wireframes
-  - Surface
-- Features
-- Technology
-- Testing
-  - Functionality testing
-  - Compatibility testing
-  - Code Validation
-  - User stories testing
-  - Isuues found during site development
-  - Performance testing
-- Deployment
-- Credits
-- Screenshots
+- [UX](#ux)
+  - [Website owner business goals](#website-owner-business-goals)
+  - [User goals](#user-goals)
+    - [New user goals](#new-user-goals)
+    - [Returning user goals](#returning-user-goals)
+  - [User Stories](#user-stories)
+  - [Structure of the website](#structure-of-the-website)
+  - [Wireframes](#wireframes)
+  - [Surface](#surface)
+- [Features](#feature)
+- [Technology](#technology)
+- [Testing](#testing)
+  - [Functionality testing](#functionality-testing)
+  - [Compatibility testing](#compatibility-testing)
+  - [Code Validation](#code-validation)
+  - [User stories testing](#user-stories-testing)
+  - [Issues found during site development](#issues-found-during-site-development)
+  - [Performance testing](#performance-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screenshots](#screenshots)
+
+## UX
