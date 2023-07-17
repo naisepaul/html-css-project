@@ -85,8 +85,6 @@ h2 {
     
 } */
 
-
-
 #hero-image {
     height: 590px;
     width: 100%;
@@ -308,7 +306,7 @@ input[type=email] {
 .menu-dropdown {
     position: relative;
     display: inline-block;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .menu-dropdown-content {
@@ -574,14 +572,14 @@ input[type=email] {
         display: none;
     }
 
-    .menu-dropdown-content,
     .menu-dropbtn {
         display: inline;
-    }
-
-    .menu-dropbtn {
         font-size: 10px;
     }
+
+    /* .menu-dropdown-content {
+        max-width: auto;
+    } */
 
     #logo {
         font-size: 130%;
