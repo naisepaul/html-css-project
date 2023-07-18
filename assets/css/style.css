@@ -312,7 +312,6 @@ input[type=email] {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-
 }
 
 /* three bar dropdown menu */
@@ -455,6 +454,30 @@ input[type=email] {
         height: 105vh;
         max-width: 100%;
     }
+
+    /* for menu */
+    /* .flex-container {
+        flex: 1 0 48%;
+        padding-top: 50px;
+        padding-left: 10px;
+        justify-content: center;
+    }
+
+    .flex-container img {
+        width: 250px;
+        height: 150px;
+        padding-left: 0px;
+    }
+
+    .flex-container label {
+        text-align: center;
+        font-size: 1rem;
+    } */
+
+    .flex h2 {
+        /* font-size: larger; */
+        padding-top: 85px;
+    }
 }
 
 /* 
@@ -516,6 +539,31 @@ input[type=email] {
     .address {
         /* height: 400px; */
         font-size: small;
+    }
+
+    /* for menu */
+    .flex-container {
+        flex: 1 0 48%;
+        padding-top: 50px;
+        padding-left: 10px;
+        justify-content: center;
+    }
+
+    .flex-container img {
+        width: 250px;
+        height: 150px;
+        padding-left: 0px;
+    }
+
+    .flex-container label {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .flex h2 {
+        font-size: large;
+        /* justify-content: left;
+        align-items: left; */
     }
 }
 
@@ -618,6 +666,24 @@ input[type=email] {
     .join-button {
         width: 130px;
     }
+
+    /* for menu */
+
+    .flex-container img {
+        width: 325px;
+        height: 150px;
+        padding-left: 0px;
+    }
+
+    .flex-container label {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .flex h2 {
+        font-size: large;
+        padding-top: 100px;
+    }
 }
 
 /* ##Screen=Below 320px */
@@ -637,19 +703,20 @@ input[type=email] {
         font-size: 10px;
     }
 
-    /* .menu-dropdown-content {
-        max-width: auto;
-    } */
+    /* logo and social link section */
 
     #logo {
         font-size: 130%;
         margin-left: 10px;
     }
 
+
     .social-media-links i {
         font-size: 90%;
         margin: 1%;
     }
+
+    /* our ethos section */
 
     #our-pizza-ethos~h2 {
         font-size: 25px;
@@ -695,6 +762,8 @@ input[type=email] {
         left: 1px;
     }
 
+    /* address section */
+
     .address {
         height: 300px;
         font-size: small;
@@ -709,16 +778,7 @@ input[type=email] {
         /* float: left; */
     }
 
-    /* #contact-us {
-        font-size: small;
-        padding-left: 10px;
-        left: 20px;
-    } */
-
-    /* 
-    .social-media-links>p {
-        font-size: 130%;
-    } */
+    /* contact us section */
 
     #comment-section {
         height: 120vh;
@@ -732,5 +792,23 @@ input[type=email] {
 
     legend {
         font-size: 125%;
+    }
+
+    /* for menu */
+
+    .flex-container img {
+
+        width: 250px;
+        height: 150px;
+        padding-left: 0px;
+    }
+
+    .flex-container label {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .flex h2 {
+        font-size: large;
     }
 }
