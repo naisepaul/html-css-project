@@ -332,6 +332,32 @@ input[type=email] {
     padding-left: 10px;
 }
 
+/* menu page*/
+
+.flex-container {
+    padding-top: 75px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* font-size: 48px; */
+}
+
+.flex-container img {
+    gap: 20px;
+    width: 32%;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 /* three bar dropdown menu */
 
 .menu-dropbtn {
