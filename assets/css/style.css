@@ -162,13 +162,14 @@ h2 {
     height: auto;
     width: 250px;
     padding-top: 8px;
-    left: 250px;
+    /* left: 250px; */
     position: absolute;
     float: right;
     background-color: #070707;
     color: rgb(226, 225, 233);
     text-align: right;
     border-radius: 20px;
+    background-position: top left;
 }
 
 .cover-text-right {
