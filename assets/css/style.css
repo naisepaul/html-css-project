@@ -246,20 +246,21 @@ input[type=email] {
 }
 
 /* menu page*/
+
 .flex {
     display: flex;
     flex-flow: row wrap;
     /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
 }
 
 .flex-container {
-    flex: 1 0 32.5%;
+    flex: 1 0 30%;
     /* height: 250px; */
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-left: 10px;
     /* padding-right: 10px; */
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .flex-container img {
@@ -662,9 +663,9 @@ input[type=email] {
     /* for menu */
 
     .flex-container img {
-        width: 100%;
+        width: 80%;
         height: 200px;
-        padding-left: 0px;
+        padding: 15px;
     }
 
     .flex-container label {
