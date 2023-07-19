@@ -612,31 +612,23 @@ input[type=email] {
 
     .flex-map {
         flex: 1 0 98%;
-        height: 200px;
-        top: 50px;
+        bottom: 0px;
     }
 
     /* footer social media link icons */
 
-    /* .social-media-links {
-        text-align: center;
-    }*/
-
     .social-media-links>li {
         display: inline;
-        clear: right;
-        float: left;
     }
 
-    */ .social-media-links i {
+    .social-media-links i {
         font-size: 90%;
         margin: 1%;
     }
 
-
     .address {
         top: 25px;
-        height: 150px;
+        height: 180px;
         font-size: small;
     }
 
@@ -752,19 +744,29 @@ input[type=email] {
         text-align: left;
     }
 
-    /* social link section */
+    /* maps */
+
+    .flex-map {
+        flex: 1 0 98%;
+        bottom: 0px;
+    }
+
+    /* footer social media link icons */
+
+    .social-media-links>li {
+        display: inline;
+    }
+
     .social-media-links i {
         font-size: 90%;
         margin: 1%;
     }
 
-
-
     /* address section */
 
     .address {
         top: 25px;
-        height: 300px;
+        height: 350px;
         font-size: small;
     }
 
