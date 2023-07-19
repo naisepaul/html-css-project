@@ -13,37 +13,40 @@
 
 <body>
     <!-- fixed header -->
-    <header class="fixed-header">
-        <a href="index.html">
-            <h1 id="logo">Pizza House</h1>
-        </a>
-        <nav>
-            <ul class="list">
-                <li>
-                    <a href="contact.html" class="active">Contact Us</a>
-                </li>
-                <li>
-                    <a href="menu.html">Menu</a>
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </ul>
-            <!-- dropdown menu -->
-            <div class="menu-dropdown">
-                <button class="menu-dropbtn"><i class="fa-solid fa-bars"></i> Menu</button>
-                <div class="menu-dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="menu">Menu</a>
-                    <a href="contact.html">Contact Us</a>
+    <!-- <header class="fixed-header"> -->
+    <header>
+        <div class="fixed-header">
+            <a href="index.html">
+                <h1 id="logo">Pizza House</h1>
+            </a>
+            <nav>
+                <ul class="list">
+                    <li>
+                        <a href="contact.html" class="active" aria-label="Go to contact us page">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="menu.html" aria-label="Go to menu page">Menu</a>
+                    </li>
+                    <li>
+                        <a href="index.html" aria-label="Go to home page">Home</a>
+                    </li>
+                </ul>
+                <!-- dropdown menu -->
+                <div class="menu-dropdown">
+                    <button class="menu-dropbtn"><i class="fa-solid fa-bars"></i> Menu</button>
+                    <div class="menu-dropdown-content">
+                        <a href="index.html" aria-label="Go home page">Home</a>
+                        <a href="menu" aria-label="Go to menu page">Menu</a>
+                        <a href="contact.html" aria-label="Go to contact us page">Contact Us</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <!-- contact us page -->
     <section>
         <div id="comment-section">
-            <h2>Contact Us</h2>
+            <!-- <h2>Contact Us</h2> -->
             <form action="https://formdump.codeinstitute.net" method="POST">
                 <fieldset class="signup-form">
                     <legend>Contact Us</legend>
