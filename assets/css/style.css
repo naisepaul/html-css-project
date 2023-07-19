@@ -247,8 +247,8 @@ h2 {
 
 .signup-form {
     margin: 125px 5% 0 0;
-    color: #fff;
-    /* background-color: rgb(125, 135, 130); */
+    color: rgb(160, 166, 174);
+    background-color: rgb(31, 46, 39);
     max-width: 700px;
     position: absolute;
     right: 0%;
