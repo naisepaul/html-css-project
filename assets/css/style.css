@@ -12,15 +12,13 @@ body {
     font-weight: 400;
     color: #ffffff;
     background-color: #2e2727;
-    /* overflow-x: hidden; */
-    /* overflow-y: auto; */
-    scrollbar-color: blue;
+    /* scrollbar-color: blue; */
 }
 
 /* header position fixed */
 
 header {
-    /* width: 100%; */
+
     height: 70px;
     background: black;
     opacity: 1;
@@ -88,7 +86,7 @@ h2 {
     width: 100%;
     background: url('../images/hero-image.webp') center 100% / cover no-repeat;
     overflow: hidden;
-    /* padding-top: 50px; */
+
 }
 
 /* our pizza ethos */
@@ -119,48 +117,7 @@ h3 {
     align-items: center;
 }
 
-/* .left-about {
-    padding-top: 25px;
-    padding-left: 30px;
-    height: 330px;
-    width: 50%;
-    float: left;
-}
-
-.right-about {
-    padding-top: 25px;
-    height: 330px;
-    width: 50%;
-    float: right;
-
-} */
-
-/* ethos image style */
-
-/* .ethos-images {
-    /* padding-top: 25px; */
-/* height: 325px; */
-/* width: 45%; */
-/* border: 2px solid red; */
-/* border-radius: 20px; */
-/* position: absolute; */
-/* } */
-
-/* .ethos-images-left {
-    left: 25px;
-    float: left;
-}
-
-.ethos-images-right {
-    right: 25px;
-    float: right;
-}
-
-.ethos-images-center {
-    right: 425px;
-} */
-
-/* ethos images */
+/* ethos image path */
 
 .pizza-dough-image {
     background: url('../images/pizza-dough.webp') no-repeat;
@@ -174,36 +131,7 @@ h3 {
     background: url('../images/mozzarella-cheese.webp') no-repeat;
 }
 
-/* ethos cover text */
-
-.cover-text-left {
-    font-family: Open sans;
-    height: auto;
-    width: 250px;
-    padding-top: 8px;
-    /* left: 250px; */
-    position: absolute;
-    float: right;
-    background-color: #070707;
-    color: rgb(226, 225, 233);
-    text-align: right;
-    border-radius: 20px;
-    background-position: top left;
-}
-
-/* .cover-text-right {
-    font-family: Oswald;
-    height: auto;
-    width: 250px;
-    padding-top: 8px;
-    right: 350px;
-    position: absolute;
-    float: right;
-    background-color: #070707;
-    color: rgb(226, 225, 233);
-    text-align: left;
-    border-radius: 20px;
-} */
+/* ethos cover text heading */
 
 .cover-text-heading {
     text-decoration: 2px double underline red;
@@ -236,9 +164,8 @@ h3 {
 /* google map  */
 
 #map-style {
-    width: 100%;
+    width: 50%;
     height: 400px;
-
 }
 
 /* footer social media link icons */
@@ -442,7 +369,6 @@ input[type=email] {
         display: show;
         margin-right: 10px;
         padding: 0px;
-
     }
 
     .menu-dropbtn {
@@ -471,7 +397,6 @@ input[type=email] {
 
     .menu-dropbtn {
         display: show;
-        /* float: right; */
         padding-left: 75px;
         position: relative;
     }
@@ -494,7 +419,6 @@ input[type=email] {
 
     .address {
         /* height: 180px; */
-
         font-size: small;
     }
 
@@ -585,39 +509,6 @@ input[type=email] {
         left: 0px;
     }
 
-    .left-about,
-    .right-about {
-        width: 100%;
-        padding-left: 25px;
-    }
-
-    .ethos-images {
-        width: 100%;
-        height: 305px;
-    }
-
-    .left-about {
-        clear: right;
-        margin: 2px;
-    }
-
-    .right-about {
-        clear: right;
-        float: left;
-        margin: 2px;
-    }
-
-    .ethos-images-right {
-        clear: right;
-        display: block;
-    }
-
-    .ethos-images-center,
-    .ethos-images-left,
-    .ethos-images-right {
-        left: 5px;
-    }
-
     .address {
         /* height: 400px; */
         font-size: small;
@@ -704,44 +595,6 @@ input[type=email] {
     .social-media-links i {
         font-size: 90%;
         margin: 1%;
-    }
-
-    .cover-text-left {
-        left: 0px;
-        top: 0px;
-    }
-
-    .left-about,
-    .right-about {
-        width: 100%;
-        /* padding-left: 25px; */
-    }
-
-    .ethos-images {
-        width: 100%;
-        /* height: 305px; */
-    }
-
-    .left-about {
-        clear: right;
-        margin: 2px;
-    }
-
-    .right-about {
-        clear: right;
-        float: left;
-        margin: 2px;
-    }
-
-    .ethos-images-right {
-        clear: right;
-        display: block;
-    }
-
-    .ethos-images-center,
-    .ethos-images-left,
-    .ethos-images-right {
-        left: 20px;
     }
 
     .address {
@@ -868,47 +721,8 @@ input[type=email] {
         left: 10px;
     }
 
-    .cover-text-left {
-        left: 0px;
-        top: 0px;
-        font-size: 95%;
-    }
-
-    .left-about,
-    .right-about {
-        width: 100%;
-        left: 1px;
-    }
-
-    .ethos-images {
-        width: 100%;
-        height: 250px;
-    }
-
-    .left-about {
-        clear: right;
-        margin: 2px;
-    }
-
-    .right-about {
-        clear: right;
-        float: left;
-        margin: 2px;
-    }
-
-    .ethos-images-right {
-        clear: right;
-        display: block;
-    }
-
-    .ethos-images-center,
-    .ethos-images-left,
-    .ethos-images-right {
-        left: 1px;
-    }
 
     /* address section */
-
 
     .address {
         top: 25px;
