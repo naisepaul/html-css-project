@@ -82,7 +82,7 @@ h2 {
 /* hero image */
 
 #hero-image {
-    height: 590px;
+    height: 490px;
     width: 100%;
     background: url('../images/hero-image.webp') center 100% / cover no-repeat;
     overflow: hidden;
@@ -164,8 +164,13 @@ h3 {
 /* google map  */
 
 #map-style {
-    width: 50%;
+    width: 100%;
     height: 400px;
+}
+
+.flex-map {
+    flex: 1 0 49%;
+    /* height: 400px; */
 }
 
 /* footer social media link icons */
@@ -175,14 +180,18 @@ h3 {
 }
 
 .social-media-links>li {
-    display: inline;
+    display: block;
 }
 
 .social-media-links i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 4%;
     color: #fff;
+}
+
+.social-media-links h3 {
+    text-align: center;
 }
 
 /* contact us form Styles*/
@@ -560,7 +569,7 @@ input[type=email] {
     }
 
     #logo {
-        font-size: 300%;
+        font-size: 200%;
         float: right;
         margin-left: auto;
     }
@@ -569,8 +578,15 @@ input[type=email] {
         height: 350px;
     }
 
+    /* our ethos section */
+
     #our-pizza-ethos {
         height: auto;
+    }
+
+    #our-pizza-ethos h2 {
+        font-size: 150%;
+        left: 10px;
     }
 
     .flex-ethos {
@@ -592,10 +608,31 @@ input[type=email] {
         text-align: left;
     }
 
-    .social-media-links i {
+    /* maps */
+
+    .flex-map {
+        flex: 1 0 98%;
+        height: 200px;
+        top: 50px;
+    }
+
+    /* footer social media link icons */
+
+    /* .social-media-links {
+        text-align: center;
+    }*/
+
+    .social-media-links>li {
+        display: inline;
+        clear: right;
+        float: left;
+    }
+
+    */ .social-media-links i {
         font-size: 90%;
         margin: 1%;
     }
+
 
     .address {
         top: 25px;
@@ -670,7 +707,7 @@ input[type=email] {
         font-size: 10px;
     }
 
-    /* header ,logo and social link section */
+    /* header,hero image and logo */
 
     header {
         height: 45px;
@@ -686,8 +723,14 @@ input[type=email] {
         height: 300px;
     }
 
+    /* ethos section */
     #our-pizza-ethos {
         height: auto;
+    }
+
+    #our-pizza-ethos h2 {
+        font-size: 150%;
+        left: 10px;
     }
 
     .flex-ethos {
@@ -709,17 +752,12 @@ input[type=email] {
         text-align: left;
     }
 
+    /* social link section */
     .social-media-links i {
         font-size: 90%;
         margin: 1%;
     }
 
-    /* our ethos section */
-
-    #our-pizza-ethos~h2 {
-        font-size: 25px;
-        left: 10px;
-    }
 
 
     /* address section */
