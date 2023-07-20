@@ -399,7 +399,6 @@ input[type=email] {
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .list a {
-        display: show;
         margin-right: 10px;
         padding: 0px;
     }
@@ -429,7 +428,7 @@ input[type=email] {
     }
 
     .menu-dropbtn {
-        display: show;
+        display: inline;
         padding-left: 75px;
         position: relative;
     }
