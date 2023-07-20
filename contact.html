@@ -43,40 +43,29 @@
 
     </header>
     <!-- contact us page -->
-    <section>
-        <div id="comment-section">
-            <!-- <h2>Contact Us</h2> -->
-            <form action="https://formdump.codeinstitute.net" method="POST">
-                <fieldset class="signup-form">
-                    <legend>Contact Us</legend>
-                    <div>
-                        <label for="name-field">Name*</label>
-                        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-                    </div>
-                    <div>
-                        <label for="email-field">Email*</label>
-                        <input id="email-field" type="email" name="email" placeholder="Your email" required>
-                    </div>
-                    <div>
-                        <label for="mobile-field">Mobile*</label>
-                        <input id="mobile-field" type="text" name="mobile" placeholder="Mobile number (starts with 0)"
-                            pattern="[0-9]{10}" required>
-                    </div>
-                    <div>
-                        <label for="comments">Comments*</label>
-                        <br>
-                        <textarea id="comments" name="comments" placeholder="Your Comments" rows="5" cols="40"
-                            required></textarea>
-                    </div>
-                    <br>
-                    <div>
-                        <input class="join-button" type="submit" value="Submit">
-                        <input class="join-button" type="reset" value="Clear Form">
+    <section class="comment-section">
 
-                    </div>
-                </fieldset>
-            </form>
-        </div>
+        <!-- <h2>Contact Us</h2> -->
+        <form action="https://formdump.codeinstitute.net" method="POST" class="signup-form">
+
+            <h2>Contact Us</h2>
+            <label for="name-field">Name*</label>
+            <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+            <label for="email-field">Email*</label>
+            <input id="email-field" type="email" name="email" placeholder="Your email" required>
+            <label for="mobile-field">Mobile*</label>
+            <input id="mobile-field" type="text" name="mobile" placeholder="Mobile number (starts with 0)"
+                pattern="[0-9]{10}" required>
+            <label for="comments">Comments*</label>
+            <br>
+            <textarea id="comments" name="comments" placeholder="Your Comments" rows="5" cols="40" required></textarea>
+            <input class="join-button" type="submit" value="Submit">
+            <input class="join-button" type="reset" value="Clear Form">
+
+
+
+        </form>
+
     </section>
     <!-- section for Address, opening hours and  map -->
     <section>

@@ -195,27 +195,43 @@ h3 {
 }
 
 /* contact us form Styles*/
+.comment-section {
+    clear: left;
+    background-image: url('../images/giftcardform.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 
-#comment-section {
-    height: 100vh;
-    max-width: 100%;
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+/* #comment-section {
+    height: 700px;
+    width: 100%;
     overflow: hidden;
     background: url('../images/giftcardform.jpg') center center/ cover no-repeat;
     /* background-size: contains; */
-    object-fit: fill;
-}
-
-/* form section */
+/* object-fit: fill; */
+/* 
 
 .signup-form {
-    margin: 125px 5% 0 0;
-    color: rgb(160, 166, 174);
+    top: 100px;
+    /* margin: 125px 5% 0 0; */
+/* color: rgb(160, 166, 174);
     background-color: rgb(31, 46, 39);
-    max-width: 700px;
+    max-width: 100%;
     position: absolute;
     right: 0%;
     padding: 30px;
-}
+}  */
 
 .join-button {
     width: 190px;
@@ -341,6 +357,11 @@ input[type=email] {
     #hero-image {
         width: 100%;
     }
+
+    #comment-section {
+        height: 500px;
+        max-width: 100%;
+    }
 }
 
 /* 
@@ -365,6 +386,11 @@ input[type=email] {
 
     .ethos-images-center {
         right: 300px;
+    }
+
+    #comment-section {
+        height: 700px;
+        width: 100%;
     }
 }
 
@@ -432,15 +458,15 @@ input[type=email] {
         font-size: small;
     }
 
+    /* contact us form section  */
+
     .signup-form {
-        margin-top: 90px;
-        /* left: 5px; */
-        /* max-width: 700px; */
+        margin-top: 40px;
     }
 
     #comment-section {
-        height: 105vh;
-        max-width: 100%;
+        height: 500px;
+        width: 100%;
     }
 
     /* for menu */
@@ -522,6 +548,17 @@ input[type=email] {
     .address {
         /* height: 400px; */
         font-size: small;
+    }
+
+    /* contact us form section */
+
+    .signup-form {
+        margin-top: 40px;
+    }
+
+    #comment-section {
+        height: 450px;
+        width: 100%;
     }
 
     /* for menu */
@@ -627,6 +664,33 @@ input[type=email] {
         margin: 1%;
     }
 
+    /* contact us form section */
+
+    .signup-form {
+        margin-top: 50px;
+    }
+
+    .signup-form {
+        top: 0px;
+        left: 0px;
+        bottom: 0;
+        height: 400px;
+    }
+
+    #comment-section {
+        height: 100vh;
+        max-width: 100%;
+    }
+
+    legend {
+        font-size: 125%;
+    }
+
+    .join-button {
+        width: 130px;
+    }
+
+    /* address section */
     .address {
         top: 25px;
         height: 180px;
@@ -642,23 +706,14 @@ input[type=email] {
         float: left;
     }
 
-    #comment-section {
+    /* #comment-section {
         height: 120vh;
-        width: 150%;
+        max-width: 100%;
     }
 
-    .signup-form {
-        top: 0px;
-        left: 5px;
-    }
+     */
 
-    legend {
-        font-size: 125%;
-    }
 
-    .join-button {
-        width: 130px;
-    }
 
     /* for menu */
 
@@ -784,12 +839,15 @@ input[type=email] {
 
     #comment-section {
         height: 120vh;
-        width: 200%;
+        width: 100%;
     }
 
     .signup-form {
+        margin-right: 0px;
         top: 0px;
-        left: 2px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
     }
 
     legend {
