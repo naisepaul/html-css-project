@@ -240,7 +240,11 @@ Site is published at https://naisepaul.github.io/html-css-project/
 
 To complete this project I used Code institue student template: [Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-Ideas and knowledge library:
+- My mentor
+
+- All class mates especially Eby Chacko , Callum Dennis
+
+- Ideas and knowledge library:
 
 - [w3schools.com](https://www.w3schools.com)
 - [css-tricks.com](https://css-tricks.com/)
@@ -267,3 +271,10 @@ Ideas and knowledge library:
 - www.freepik.com
 
 ### Screenshot :
+
+- Main Image :
+  ![Main Page](assets/readme-images/mainpage.jpg)
+- Ethos Images:
+  ![Ethos Images](assets/readme-images/ethos-address.jpg)
+- Map- Social media link:
+  ![Map-social media](assets/readme-images/map-sociallinks.jpg)
