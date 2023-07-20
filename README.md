@@ -41,28 +41,54 @@ The main goals for this website is introduce new pizza brand to the market. More
 ### New user goals :
 
 - User can see our pizza ethos details
-- purchase our gift cards voucher for their loved ones
-- see our locations
+- User can see our pizza prices
+- see our location
 
 ### Returning user goals:
 
-- buy gift card vouchers for their loved ones.
+- See the pizza price
 - check our locations
 
 ## User stories
 
 ### As a business owner:
 
-- I want to develop the website with more details like menu, online ordering,etc.
+- I want to create more new online business.
 - I would like to build and maintain relationship with new customers.
 
 ### As a customer
 
 - I wish to find the pizza shop.
 - I wish to order the pizza
+- I can comment about the services, compliants, sugessions
 
 ## Structure of the website
 
 The website is meticulously crafted to ensure a seamless and intuitive user experience across all types of devices. Whether accessed on a desktop computer, tablet, or mobile device, users can expect a phenomenal browsing experience with no discernible differences. Every element of the website is thoughtfully designed and optimized to deliver utmost user satisfaction and ensure that individuals can effortlessly navigate and interact with the site, regardless of the device they are using. The goal is to create a consistently outstanding user experience that transcends the boundaries of different devices.
 
 ## Wireframes
+
+I used wireframe.cc to create wireframes
+![wireframes](assets/readme-images/wireframe1.jpg)
+![wireframes](assets/readme-images/wireframe2.jpg)
+
+## Surface
+
+### Colors
+
+Colors used in this project
+
+- background-color : #2e2727
+- frontend color : #ffffff
+- hover color : orange
+- active color : red
+
+### Fonts
+
+- for headings I used Lobster and body Oswald
+
+### Images
+
+- I used www.freepik.com for downloding images.
+
+# Features
