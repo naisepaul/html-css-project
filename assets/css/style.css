@@ -459,9 +459,13 @@ input[type=email] {
 
     .flex-container img {
         gap: 5px;
-        width: 95%;
-        height: 150px;
+        width: 75%;
+        height: 250px;
         padding-left: 10px;
+    }
+
+    .flex-container:last-child {
+        margin-left: auto;
     }
 
     .flex-container label {
@@ -548,8 +552,8 @@ input[type=email] {
     }
 
     .flex-container img {
-        width: 250px;
-        height: 150px;
+        width: 200px;
+        height: 250px;
         padding-left: 0px;
     }
 
@@ -685,6 +689,11 @@ input[type=email] {
     }
 
     /* for menu */
+    .flex-container {
+        flex: 1 0 47%;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
 
     .flex-container img {
         width: 80%;
