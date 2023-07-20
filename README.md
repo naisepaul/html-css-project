@@ -69,8 +69,9 @@ The website is meticulously crafted to ensure a seamless and intuitive user expe
 ## Wireframes
 
 I used wireframe.cc to create wireframes
-![wireframes](assets/readme-images/wireframe1.jpg)
-![wireframes](assets/readme-images/wireframe2.jpg)
+
+![Wireframes](assets/readme-images/wireframe1.jpg)
+![Wireframes](assets/readme-images/wireframe2.jpg)
 
 ## Surface
 
@@ -207,3 +208,62 @@ I found many bugs when I use different size of mobile devices.
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tools to check performance of the website.
 I made many change to improve performance.
+
+Final results
+![performance](assets/readme-images/contact-us-desktop.jpg)
+
+## Code Validation
+
+I used 2 website to validate
+
+1. CSS Validator: https://jigsaw.w3.org/css-validator/
+2. HTML Validator: https://validator.w3.org/
+
+[Back to Table of contents](#table-of-contents)
+
+## Deployment
+
+The project was deployed on GitHub pages. I used codeanywhere as a development environment where I commited all changes to git version control system.
+
+I used push command in codeanywhere to save changes into GitHub.
+
+To deploy the project I had to :
+
+- Log in to GitHub and click on repository to deploy [Pizza House](https://naisepaul.github.io/html-css-project/)!
+- Select `settings` and find GitHub `pages` section on the left side bar.
+- From source select `Deploy from a branch` and then select `main` branch
+- Click `save` and page was deployed after refresh
+
+Site is published at https://naisepaul.github.io/html-css-project/
+
+# Credits
+
+To complete this project I used Code institue student template: [Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+Ideas and knowledge library:
+
+- [w3schools.com](https://www.w3schools.com)
+- [css-tricks.com](https://css-tricks.com/)
+
+### Code:
+
+- Flex : [logrocket](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+- [openai](openai.com)
+
+### content:
+
+- Ethos content from https://www.basewfp.com/
+
+### Map location:
+
+- maps.ie
+
+### Icons:
+
+- [font Owsome version 4.7.0](https://fontawesome.com/)
+
+### Images:
+
+- www.freepik.com
+
+### Screenshot :
