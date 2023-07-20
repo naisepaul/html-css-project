@@ -200,16 +200,18 @@ h3 {
     background-image: url('../images/giftcardform.jpg');
     background-size: cover;
     background-position: center;
-    height: 900px;
+    /* background-color: blue; */
+    height: 500px;
+    top: 0;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 70px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(54, 38, 116, 0.6);
     max-width: 400px;
-    position: absolute;
-    left: 10%;
+    /* position: absolute; */
+    /* right: 50px; */
     padding: 30px;
 }
 
@@ -646,8 +648,8 @@ input[type=email] {
 
     /* contact us form section */
 
-    .signup-form {
-        margin-top: 50px;
+    .signup-form h2 {
+        font-size: large;
     }
 
     .signup-form {
@@ -822,12 +824,16 @@ input[type=email] {
         width: 100%;
     }
 
+    .signup-form h2 {
+        font-size: large;
+    }
+
     .signup-form {
-        margin-right: 0px;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        right: 0px;
+        height: 350px;
+    }
+
+    .join-button {
+        width: 120px;
     }
 
     legend {
