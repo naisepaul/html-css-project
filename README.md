@@ -190,3 +190,20 @@ Website was tested multiple virtual mobile aand tablet devices and browser.
   - customers can see address and map on the site
 - I wish to see the pizza menu
 - I can comment about the services, compliants, sugessions
+
+## Issues found during site development
+
+#### Mobile screen compatability
+
+I found many bugs when I use different size of mobile devices.
+
+- Changing image size and font size of headings fixed the problems.
+
+#### Horizontal scrolling bar on the bottom of the page
+
+- Changing the map size and main image size controlled the problems.
+
+## Performance testing
+
+I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tools to check performance of the website.
+I made many change to improve performance.
