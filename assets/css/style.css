@@ -385,6 +385,10 @@ input[type=email] {
         height: 700px;
         width: 100%;
     }
+
+    #our-pizza-ethos {
+        height: auto;
+    }
 }
 
 /* 
@@ -421,7 +425,7 @@ input[type=email] {
     }
 
     #our-pizza-ethos {
-        height: 650px;
+        height: auto;
     }
 
     .menu-dropbtn {
@@ -501,16 +505,18 @@ input[type=email] {
     .flex-ethos img {
         gap: 5px;
         width: 95%;
-        height: 200px;
+        height: 330px;
         border-radius: 20px;
         padding-left: 10px;
     }
 
+
+
     .flex-ethos p,
     h3 {
-        width: 80%;
+        width: 90%;
         padding-left: 10px;
-        text-align: justify;
+        text-align: left;
     }
 
     .cover-text-left {
@@ -677,15 +683,6 @@ input[type=email] {
         clear: right;
         float: left;
     }
-
-    /* #comment-section {
-        height: 120vh;
-        max-width: 100%;
-    }
-
-     */
-
-
 
     /* for menu */
 
