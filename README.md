@@ -22,10 +22,10 @@ This project is for educational purposes and can not be used as a template for a
 - [Testing](#testing)
   - [Functionality testing](#functionality-testing)
   - [Compatibility testing](#compatibility-testing)
-  - [Code Validation](#code-validation)
   - [User stories testing](#user-stories-testing)
   - [Issues found during site development](#issues-found-during-site-development)
   - [Performance testing](#performance-testing)
+- [Code Validation](#code-validation)
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Screenshots](#screenshots)
@@ -92,3 +92,101 @@ Colors used in this project
 - I used www.freepik.com for downloding images.
 
 # Features
+
+- This website has 4 pages. It ia accessable form navigation bar from top.
+
+## Navigation bar
+
+#### Navigation bar is fixed on the top of the website.
+
+It's servves as a s crucial element for user experience. We can access pages from navigation menu. It is responsive and will adopt to mobile and ipads for a hamburger menu.
+
+- Navigation scheme
+  - On the left side there is a logo. And it can be used as a navigation link to menu page.
+  - On the right side there are 4 links or hamburger menu. It contains
+    - Home
+    - Menu
+    - Our Ethos
+    - Contact us
+
+## Footer
+
+It contains map on the left side and social media links on right side. And mobile it shows parallel.
+
+## Home
+
+- On top main image
+
+- next is our pizza ethos section
+
+- Address section with address and opening times
+
+## Menu
+
+- List of items available in different sizes
+
+- Address section with address and opening times
+
+## Contact Us
+
+- It's one form to contact with shop comments and suggestions
+
+[Back to Table of contents](#table-of-contents)
+
+## Technology Used
+
+### HTML 5
+
+- As a structure language
+
+### CSS
+
+- As a style language
+
+### Font Awesome
+
+- As an icon library for social media links
+
+### Google fonts
+
+- As a font resource
+
+### GitHub
+
+- As a software hosting platform to keep project ina remote location
+
+### Wireframe.cc
+
+- As a wireframing tool
+
+### Photoshop
+
+- As an Image editor
+
+[Back to Table of contents](#table-of-contents)
+
+# Testing
+
+## Functionality testing
+
+I used Chrome developer tools and Microsoft Edge through out the project for testing and solving problems with responsiveness and style issues
+
+## Compatibility testing
+
+Website was tested multiple virtual mobile aand tablet devices and browser.
+
+## User Stories testing
+
+### As a business owner:
+
+- I want to create more new online business.
+  - With online site it is easy
+- I would like to build and maintain relationship with new customers.
+  - Customer are able to find alinks to social media at the end the page
+
+### As a customer
+
+- I wish to find the pizza shop address.
+  - customers can see address and map on the site
+- I wish to see the pizza menu
+- I can comment about the services, compliants, sugessions
