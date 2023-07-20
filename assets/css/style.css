@@ -271,26 +271,28 @@ input[type=email] {
 }
 
 .flex-container {
-    flex: 1 0 30%;
-    /* height: 250px; */
-    /* padding-top: 50px; */
-    padding-left: 10px;
+    flex: 1 0 32%;
+    flex-flow: row wrap;
+    padding-top: 55px;
+    /* padding-left: 10px; */
     /* padding-right: 10px; */
     /* justify-content: center; */
 }
 
 .flex-container img {
-    gap: 30px;
-    width: 250px;
-    height: 250px;
+    gap: 25px;
+    width: 90%;
+    height: 220px;
     border-radius: 20px;
     padding-left: 10px;
+    margin: 10px;
 }
 
 .flex-container label {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    margin: 10px;
 }
 
 /* three bar dropdown menu */
@@ -380,14 +382,6 @@ input[type=email] {
         display: none;
     }
 
-    .cover-text-left {
-        left: 0px;
-    }
-
-    .ethos-images-center {
-        right: 300px;
-    }
-
     #comment-section {
         height: 700px;
         width: 100%;
@@ -437,24 +431,8 @@ input[type=email] {
         position: relative;
     }
 
-    /* .list {
-        clear: left; */
-    /* float: right;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    } */
-
-    .cover-text-left {
-        left: 0px;
-    }
-
-    .ethos-images-center {
-        right: 250px;
-    }
-
     .address {
-        /* height: 180px; */
+
         font-size: small;
     }
 
@@ -470,23 +448,25 @@ input[type=email] {
     }
 
     /* for menu */
-    /* .flex-container {
+
+
+    .flex-container {
         flex: 1 0 48%;
         padding-top: 50px;
         padding-left: 10px;
-        justify-content: center;
     }
 
     .flex-container img {
-        width: 250px;
+        gap: 5px;
+        width: 95%;
         height: 150px;
-        padding-left: 0px;
+        padding-left: 10px;
     }
 
     .flex-container label {
         text-align: center;
         font-size: 1rem;
-    } */
+    }
 
     .flex h2 {
         /* font-size: larger; */
