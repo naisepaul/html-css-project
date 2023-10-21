@@ -315,8 +315,10 @@ input[type=email] {
 
 }
 
-.menu-dropdown-content a:hover {
+.menu-dropdown a:hover {
     background-color: #f1f1f1;
+    transform: scale(1.4);
+    transition: transform 0.6s;
 }
 
 .menu-dropdown:hover .menu-dropdown-content {
@@ -356,10 +358,6 @@ input[type=email] {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
-    /* .list a {
-        display: none;
-    } */
 
     .menu-dropdown-content,
     .menu-dropbtn {
