@@ -316,7 +316,7 @@ input[type=email] {
 }
 
 .menu-dropdown a:hover {
-    background-color: #f1f1f1;
+    background-color: #f08787;
     transform: scale(1.4);
     transition: transform 0.6s;
 }
@@ -788,7 +788,6 @@ input[type=email] {
 
     .address-right-about {
         clear: right;
-        /* float: left; */
     }
 
     /* contact us section */
