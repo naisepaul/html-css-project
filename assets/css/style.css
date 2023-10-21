@@ -215,26 +215,6 @@ h3 {
     padding: 30px;
 }
 
-/* #comment-section {
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-    background: url('../images/giftcardform.jpg') center center/ cover no-repeat;
-    /* background-size: contains; */
-/* object-fit: fill; */
-/* 
-
-.signup-form {
-    top: 100px;
-    /* margin: 125px 5% 0 0; */
-/* color: rgb(160, 166, 174);
-    background-color: rgb(31, 46, 39);
-    max-width: 100%;
-    position: absolute;
-    right: 0%;
-    padding: 30px;
-}  */
-
 .join-button {
     width: 190px;
     margin-top: 20px;
@@ -298,19 +278,20 @@ input[type=email] {
 
 .menu-dropbtn {
     background-color: #4CAF50;
-    color: white;
-    padding: 16px;
+    color: rgb(243, 237, 237);
+    padding: 15px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     float: right;
+
     right: 0px;
     z-index: 1;
 }
 
 .menu-dropdown {
     position: relative;
-    display: inline-block;
+    display: block;
     /* position: fixed; */
 }
 
@@ -398,15 +379,15 @@ input[type=email] {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .list a {
+    /* .list a {
         margin-right: 10px;
         padding: 0px;
-    }
+    } */
 
-    .menu-dropbtn {
+    /* .menu-dropdown-content, */
+    /* .menu-dropbtn, */
+    .menu-dropdown {
         display: none;
-        /* float: right; */
-        /* position: relative; */
     }
 
     header {
@@ -484,8 +465,9 @@ input[type=email] {
         margin-right: 0px;
     }
 
-    .menu-dropbtn {
-        display: inline;
+    /* .menu-dropbtn */
+    .menu-dropdown {
+        display: block;
     }
 
     header {
@@ -493,7 +475,7 @@ input[type=email] {
     }
 
     #logo {
-        float: right;
+        /* float: right; */
         margin-left: auto;
     }
 
