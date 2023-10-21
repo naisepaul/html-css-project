@@ -202,13 +202,12 @@ h3 {
     background-image: url('../images/giftcardform.jpg');
     background-size: cover;
     background-position: center;
-    /* background-color: blue; */
     height: 500px;
     top: 0;
 }
 
 .signup-form {
-    margin: 70px 10% 0 0;
+    margin: 70px 2% 0 0;
     color: #fff;
     background-color: rgba(54, 38, 116, 0.6);
     max-width: 400px;
@@ -553,7 +552,7 @@ input[type=email] {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
 
     .list a {
         display: none;
@@ -697,7 +696,7 @@ input[type=email] {
 
 /* ##Screen=Below 320px */
 
-@media (max-width: 319px) {
+@media (max-width: 320px) {
 
     .list a {
         display: none;
@@ -794,7 +793,7 @@ input[type=email] {
 
     #comment-section {
         height: 120vh;
-        width: 100%;
+        width: 90%;
     }
 
     .signup-form h2 {
@@ -803,10 +802,12 @@ input[type=email] {
 
     .signup-form {
         height: 350px;
+        /* width: fit-content; */
     }
 
     .join-button {
-        width: 120px;
+        width: 80px;
+        padding: 10px 10px;
     }
 
     legend {
