@@ -12,7 +12,6 @@ body {
     font-weight: 400;
     color: #ffffff;
     background-color: #2e2727;
-    /* scrollbar-color: blue; */
 }
 
 /* header position fixed */
@@ -60,6 +59,7 @@ h2 {
 .list,
 #logo {
     line-height: 50px;
+    cursor: pointer;
 }
 
 .list a {
@@ -707,20 +707,19 @@ input[type=email] {
         margin-right: 0px;
     }
 
-    .menu-dropbtn {
-        display: inline;
+    .menu-dropdown {
+        display: block;
         font-size: 10px;
     }
 
     /* header,hero image and logo */
 
     header {
-        height: 45px;
+        height: 50px;
     }
 
     #logo {
-        font-size: 150%;
-        float: right;
+        font-size: 170%;
         margin-left: auto;
     }
 
