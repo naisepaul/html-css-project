@@ -94,7 +94,7 @@ h2 {
 /* our pizza ethos */
 
 #our-pizza-ethos {
-    height: 550px;
+    height: 570px;
 }
 
 .flex-ethos {
@@ -115,8 +115,6 @@ h3 {
     width: 70%;
     padding-left: 10px;
     text-align: justify;
-    justify-content: center;
-    align-items: center;
 }
 
 /* ethos image path */
@@ -226,10 +224,10 @@ h3 {
     border: 2px solid #009688;
 }
 
-legend {
+/* legend {
     font-size: 200%;
     text-transform: uppercase;
-}
+} */
 
 form {
     line-height: 1.7;
@@ -239,7 +237,11 @@ input[type=text],
 input[type=email] {
     height: 30px;
     width: 90%;
-    padding-left: 10px;
+    padding-left: 5px;
+}
+
+textarea {
+    width: 90%;
 }
 
 /* menu page*/
