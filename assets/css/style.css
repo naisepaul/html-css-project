@@ -32,7 +32,7 @@ header {
 /* heading and logo */
 
 h1,
-h2 {
+px h2 {
     font-family: Lobster;
     letter-spacing: 8px;
     text-align: center;
@@ -482,7 +482,7 @@ textarea {
         width: 95%;
         height: 250px;
         border-radius: 20px;
-        /* padding-left: 10px; */
+
     }
 
     .flex-ethos p,
@@ -532,8 +532,6 @@ textarea {
 
     .flex h2 {
         font-size: large;
-        /* justify-content: left;
-        align-items: left; */
     }
 }
 
