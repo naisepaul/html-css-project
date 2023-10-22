@@ -578,10 +578,18 @@ textarea {
         flex: 1 0 90%;
     }
 
-    .flex-ethos img {
-        width: 95%;
-        height: 250px;
-        padding-left: 10px;
+    .flex-container img {
+        gap: 5px;
+        width: 90%;
+        height: 40vh;
+        padding: 10px;
+    }
+
+    .flex-container:last-child {
+        margin-left: auto;
+        width: 65%;
+        height: 50vh;
+        padding: 10px;
     }
 
     .flex-ethos p,
