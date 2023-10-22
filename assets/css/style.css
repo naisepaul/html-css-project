@@ -137,7 +137,7 @@ h3 {
 
 /* address filed */
 .address {
-    height: 190px;
+    height: 175px;
 }
 
 .address-left-about {
@@ -253,7 +253,7 @@ textarea {
 
 .flex-container img {
     gap: 25px;
-    width: 90%;
+    /* width: 90%; */
     height: 50vh;
     border-radius: 50%;
     padding-left: 10px;
@@ -348,7 +348,7 @@ textarea {
   ##Screen = B/w 1025px to 1280px
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
 
     .menu-dropdown-content,
     .menu-dropbtn {
@@ -363,6 +363,26 @@ textarea {
     #our-pizza-ethos {
         height: auto;
     }
+
+    .flex-container {
+        flex: 1 0 48%;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    .flex-container img {
+        gap: 5px;
+        /* width: 90%; */
+        height: 40vh;
+        padding: 10px;
+    }
+
+    .flex-container:last-child {
+        margin-left: auto;
+        /* width: auto; */
+        height: 50vh;
+        padding: 10px;
+    }
 }
 
 /* 
@@ -370,7 +390,7 @@ textarea {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
     .list {
         font-size: 130%;
@@ -429,14 +449,14 @@ textarea {
 
     .flex-container img {
         gap: 5px;
-        width: 90%;
-        height: 40vh;
+        /* width: 90%; */
+        height: 50vh;
         padding: 10px;
     }
 
     .flex-container:last-child {
         margin-left: auto;
-        width: 65%;
+        width: 50%;
         height: 50vh;
         padding: 10px;
     }
@@ -520,8 +540,8 @@ textarea {
     }
 
     .flex-container img {
-        width: 200px;
-        height: 250px;
+        /* width: 200px; */
+        height: 40vh;
         padding-left: 0px;
     }
 
@@ -580,7 +600,7 @@ textarea {
 
     .flex-container img {
         gap: 5px;
-        width: 90%;
+        width: 80%;
         height: 40vh;
         padding: 10px;
     }
@@ -602,7 +622,7 @@ textarea {
     /* maps */
 
     .flex-map {
-        flex: 1 0 100%;
+        flex: 1 0 99%;
         bottom: 0px;
     }
 
@@ -635,18 +655,14 @@ textarea {
         max-width: 100%;
     }
 
-    legend {
-        font-size: 125%;
-    }
-
     .join-button {
         width: 130px;
     }
 
     /* address section */
     .address {
-        top: 25px;
-        height: 180px;
+        top: 15px;
+        height: 170px;
         font-size: small;
     }
 
@@ -667,8 +683,8 @@ textarea {
     }
 
     .flex-container img {
-        width: 80%;
-        height: 200px;
+        /* width: 80%; */
+        height: 40vh;
         padding: 15px;
         margin: 0px;
     }
@@ -751,7 +767,7 @@ textarea {
     /* maps */
 
     .flex-map {
-        flex: 1 0 100%;
+        flex: 1 0 99%;
         bottom: 0px;
     }
 
@@ -769,8 +785,8 @@ textarea {
     /* address section */
 
     .address {
-        top: 25px;
-        height: 350px;
+        top: 5px;
+        height: 150px;
         font-size: small;
     }
 
@@ -811,8 +827,8 @@ textarea {
 
     .flex-container img {
 
-        width: 100%;
-        height: 150px;
+        /* width: 100%; */
+        height: 40vh;
         padding-left: 0px;
         margin: 0px;
     }
