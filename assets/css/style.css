@@ -107,12 +107,12 @@ h2 {
     width: 98%;
     height: 300px;
     border-radius: 20px;
-    padding-left: 10px;
+    /* padding: 10px; */
 }
 
 .flex-ethos p,
 h3 {
-    width: 70%;
+    width: 90%;
     padding-left: 10px;
     text-align: justify;
 }
@@ -264,8 +264,8 @@ textarea {
 .flex-container img {
     gap: 25px;
     width: 90%;
-    height: 220px;
-    border-radius: 20px;
+    height: 50vh;
+    border-radius: 50%;
     padding-left: 10px;
     margin: 10px;
 }
@@ -488,6 +488,11 @@ textarea {
         height: 650px;
     }
 
+    .flex-ethos {
+        flex: 1 0 45%;
+        flex-flow: row wrap;
+    }
+
     .flex-ethos img {
         gap: 5px;
         width: 95%;
@@ -588,15 +593,11 @@ textarea {
         left: 10px;
     }
 
-    .flex-ethos {
-        flex: 1 0 90%;
-    }
 
     .flex-ethos img {
         gap: 5px;
         width: 95%;
-        height: 250px;
-        border-radius: 20px;
+        height: 50vh;
         padding-left: 10px;
     }
 
@@ -692,7 +693,7 @@ textarea {
     }
 
     section h2 {
-        font-size: large;
+        font-size: xx-large;
     }
 }
 
@@ -832,6 +833,6 @@ textarea {
     }
 
     section h2 {
-        font-size: large;
+        font-size: xx-large;
     }
 }
