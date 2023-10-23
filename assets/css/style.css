@@ -141,7 +141,7 @@ h3 {
 }
 
 .address-left-about {
-    padding-left: 30px;
+    padding-left: 10px;
     height: 170px;
     width: 45%;
     float: left;
@@ -149,8 +149,8 @@ h3 {
 
 .address-right-about {
     height: 150px;
-    width: 45%;
-    float: right;
+    width: 40%;
+    float: left;
 }
 
 .address span {
@@ -252,11 +252,14 @@ textarea {
 }
 
 .flex-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 25px;
-    /* width: 90%; */
-    height: 50vh;
+    max-width: 90%;
+    height: 35vh;
     border-radius: 50%;
-    padding-left: 10px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -364,7 +367,7 @@ textarea {
         height: auto;
     }
 
-    .flex-container {
+    /* .flex-container {
         flex: 1 0 48%;
         padding-top: 50px;
         padding-left: 10px;
@@ -372,17 +375,17 @@ textarea {
 
     .flex-container img {
         gap: 5px;
-        /* width: 90%; */
+         width: 90%; 
         height: 40vh;
         padding: 10px;
     }
 
     .flex-container:last-child {
         margin-left: auto;
-        /* width: auto; */
+        
         height: 50vh;
         padding: 10px;
-    }
+    } */
 }
 
 /* 
@@ -449,15 +452,15 @@ textarea {
 
     .flex-container img {
         gap: 5px;
-        /* width: 90%; */
-        height: 50vh;
+        /* max-width: 50%; */
+        height: 35vh;
         padding: 10px;
     }
 
     .flex-container:last-child {
         margin-left: auto;
         width: 50%;
-        height: 50vh;
+        height: 35vh;
         padding: 10px;
     }
 
@@ -542,6 +545,7 @@ textarea {
     .flex-container img {
         /* width: 200px; */
         height: 40vh;
+        /* max-width: 50%; */
         padding-left: 0px;
     }
 
@@ -600,7 +604,7 @@ textarea {
 
     .flex-container img {
         gap: 5px;
-        width: 80%;
+        /* max-width: 50%; */
         height: 40vh;
         padding: 10px;
     }
@@ -622,7 +626,7 @@ textarea {
     /* maps */
 
     .flex-map {
-        flex: 1 0 99%;
+        flex: 1 0 100%;
         bottom: 0px;
     }
 
@@ -685,6 +689,7 @@ textarea {
     .flex-container img {
         /* width: 80%; */
         height: 40vh;
+        /* max-width: 50%; */
         padding: 15px;
         margin: 0px;
     }
@@ -752,7 +757,7 @@ textarea {
 
     .flex-ethos img {
         width: 95%;
-        height: 180px;
+        height: 35vh;
         border-radius: 20px;
         padding-left: 10px;
     }
@@ -767,7 +772,7 @@ textarea {
     /* maps */
 
     .flex-map {
-        flex: 1 0 99%;
+        flex: 1 0 90%;
         bottom: 0px;
     }
 
@@ -786,7 +791,7 @@ textarea {
 
     .address {
         top: 5px;
-        height: 150px;
+        height: 170px;
         font-size: small;
     }
 
@@ -819,16 +824,18 @@ textarea {
         padding: 10px 10px;
     }
 
-    legend {
-        font-size: 125%;
-    }
-
     /* for menu */
+    .flex-container {
+        flex: 1 0 99%;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
 
     .flex-container img {
 
         /* width: 100%; */
-        height: 40vh;
+        height: 25vh;
+        /* max-width: 100%; */
         padding-left: 0px;
         margin: 0px;
     }
