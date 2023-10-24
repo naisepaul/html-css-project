@@ -17,8 +17,7 @@ body {
 /* header position fixed */
 
 header {
-
-    height: 70px;
+    height: 60px;
     background: black;
     opacity: 1;
     position: fixed;
@@ -236,6 +235,31 @@ textarea {
 }
 
 /* menu page*/
+/* section {
+    padding-top: 40px;
+} */
+
+.grid-container {
+    display: grid;
+    top: 25px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.grid-item img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 .flex {
     display: flex;
@@ -245,30 +269,27 @@ textarea {
     justify-content: center;
 }
 
-.flex-container {
+/* .flex-container {
     flex: 1 0 32%;
     flex-flow: row wrap;
     padding-top: 55px;
 }
 
 .flex-container img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 25px;
-    max-width: 90%;
-    height: 35vh;
+    width: 90%;
+    height: 45vh;
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
-}
+} */
 
-.flex-container label {
+/* .flex-container label {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
     margin: 10px;
-}
+} */
 
 /* three bar dropdown menu */
 
@@ -772,7 +793,7 @@ textarea {
     /* maps */
 
     .flex-map {
-        flex: 1 0 90%;
+        flex: 1 0 75%;
         bottom: 0px;
     }
 
@@ -833,7 +854,7 @@ textarea {
 
     .flex-container img {
 
-        /* width: 100%; */
+        max-width: 50%;
         height: 25vh;
         /* max-width: 100%; */
         padding-left: 0px;
