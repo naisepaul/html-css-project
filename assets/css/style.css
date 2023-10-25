@@ -681,14 +681,15 @@ textarea {
         text-align: left;
     }
 
-    /* maps */
+    /* maps  footer social media link icons */
 
     .flex-map {
-        flex: 1 0 100%;
-        bottom: 0px;
+        flex: 1 0 99%;
     }
 
-    /* footer social media link icons */
+    .flex-social {
+        text-align: center;
+    }
 
     .social-media-links>li {
         display: inline;
@@ -823,11 +824,14 @@ textarea {
     /* maps */
 
     .flex-map {
-        flex: 1 0 75%;
-        bottom: 0px;
+        flex: 1 0 99%;
     }
 
     /* footer social media link icons */
+
+    .flex-social {
+        text-align: center;
+    }
 
     .social-media-links>li {
         display: inline;
