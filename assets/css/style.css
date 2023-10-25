@@ -157,7 +157,7 @@ h3 {
     font-size: large;
 }
 
-/* google map  */
+/*footer and google map  */
 footer .flex {
     display: flex;
     flex-wrap: wrap;
@@ -221,7 +221,7 @@ footer .flex {
 }
 
 form {
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 input[type=text],
@@ -236,9 +236,6 @@ textarea {
 }
 
 /* menu page*/
-/* section {
-    padding-top: 40px;
-} */
 
 .grid-container {
     display: grid;
@@ -275,15 +272,6 @@ textarea {
     flex-flow: row wrap;
     padding-top: 55px;
 }
-
-/* .flex-container img {
-    gap: 25px;
-    width: 90%;
-    height: 45vh;
-    border-radius: 50%;
-    padding: 10px;
-    margin: 10px;
-} */
 
 .grid-container label {
     text-align: center;
