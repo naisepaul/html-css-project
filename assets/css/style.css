@@ -193,7 +193,7 @@ footer .flex {
 /* contact us form Styles*/
 .comment-section {
     clear: left;
-    /* background-image: url('../images/giftcardform.jpg'); */
+    background-image: url('../images/giftcardform.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
